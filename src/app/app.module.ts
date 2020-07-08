@@ -6,7 +6,7 @@ import { APP_ROUTES } from './app.routes';
 
 // Modulos
 import { PagesModule } from './pages/pages.module';
-
+// import { ChartsModule } from 'ng2-charts';
 // Componentes
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';

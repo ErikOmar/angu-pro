@@ -1,0 +1,13 @@
+<h3>{{ graficaData.leyenda }}</h3>
+
+<div>
+  <div>
+    <div style="display: block">
+      <canvas baseChart
+        [data]="graficaData.data"
+        [labels]="graficaData.labels"
+        [chartType]="graficaData.type">
+      </canvas>
+    </div>
+  </div>
+</div>

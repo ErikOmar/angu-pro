@@ -1,0 +1,14 @@
+<h3>{{ titulo }}</h3>
+
+<div class="input-group">
+  <input #txtProcentaje type="number" max="100" min="0" class="form-control" placeholder="" aria-label="" aria-describedby="button-addon4"
+    [(ngModel)]="porcentaje" (ngModelChange)="cambiaPorcentaje($event)"/>
+  <div class="input-group-append" id="button-addon4">
+    <button class="btn btn-outline-secondary" type="button" (click)="incrementaValor(-5)">
+      <i class="mdi mdi-minus"></i>
+    </button>
+    <button class="btn btn-outline-secondary" type="button" (click)="incrementaValor(5)">
+      <i class="mdi mdi-plus"></i>
+    </button>
+  </div>
+</div>
