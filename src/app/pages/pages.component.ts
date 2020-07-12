@@ -1,4 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+
+// Llamar un script que se encuentra fuera de angulat
+// En este caso para inicializar los plugins del tema
+declare function init_pluggins();
 
 @Component({
   selector: 'app-pages',
@@ -8,9 +12,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PagesComponent implements OnInit {
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
+    init_pluggins();
   }
 
 }
