@@ -8,7 +8,7 @@ import {APP_ROUTES} from './app.routes';
 import {PagesModule} from './pages/pages.module';
 
 // Servicios
-import {ServiceModule} from './services/service.module';
+// import {ServiceModule} from './services/service.module';
 
 // Componentes
 import {AppComponent} from './app.component';
@@ -18,7 +18,7 @@ import {RegisterComponent} from './login/register.component';
 
 @NgModule({
   declarations: [AppComponent, LoginComponent, RegisterComponent],
-  imports: [BrowserModule, APP_ROUTES, PagesModule, ServiceModule],
+  imports: [BrowserModule, APP_ROUTES, PagesModule,],
   providers: [],
   bootstrap: [AppComponent],
 })
