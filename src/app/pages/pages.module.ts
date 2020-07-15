@@ -18,6 +18,7 @@ import {IncrementadorComponent} from '../components/incrementador/incrementador.
 import {GraficaComponent} from '../components/grafica/grafica.component';
 import { PromesasComponent } from './promesas/promesas.component';
 import { RxjsComponent } from './rxjs/rxjs.component';
+import { PromisesComponent } from './promises/promises.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { RxjsComponent } from './rxjs/rxjs.component';
     GraficaComponent,
     PromesasComponent,
     RxjsComponent,
+    PromisesComponent,
   ],
   exports: [DashboardComponent, ProgressComponent, GraphicsComponent],
   imports: [PAGES_ROUTES, SharedModule, FormsModule, ChartsModule],
